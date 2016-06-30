@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">微信</string>
+    <string-array name="pager_names">
+        <item>微信</item>
+        <item>通讯录</item>
+        <item>发现</item>
+        <item>我</item>
+    </string-array>
+
+    <string name="action_search">查找</string>
+    <string name="action_plus">更多</string>
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加朋友</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="plus_pay">收付款</string>
+    <string name="plus_help">帮助与反馈</string>
+
+</resources>

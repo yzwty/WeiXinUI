@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@mipmap/actionbar_search_icon"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"/>
+   <!--
+    <item
+        android:id="@+id/action_plus"
+        android:actionProviderClass="com.yzw.android.weixinui.PlusActionProvide"
+        android:icon="@mipmap/actionbar_add_icon"
+        app:showAsAction="always"
+        android:title="@string/action_plus"/>
+      !-->
+    <item
+        android:id="@+id/action_album"
+        android:icon="@mipmap/ofm_group_chat_icon"
+        app:showAsAction="never"
+        android:title="@string/plus_group_chat"/>
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@mipmap/ofm_add_icon"
+        app:showAsAction="never"
+        android:title="@string/plus_add_friend"/>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@mipmap/ofm_qrcode_icon"
+        app:showAsAction="never"
+        android:title="@string/plus_scan"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/ofm_collect_icon"
+        app:showAsAction="never"
+        android:title="@string/plus_pay"/>
+    <item
+        android:id="@+id/action_feed"
+        android:icon="@mipmap/ofm_feedback_icon"
+        app:showAsAction="never"
+        android:title="@string/plus_help"/>
+
+
+</menu>
