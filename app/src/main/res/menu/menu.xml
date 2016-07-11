@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
     <item
         android:id="@+id/action_search"
         android:actionViewClass="android.widget.SearchView"
         android:icon="@mipmap/actionbar_search_icon"
-        app:showAsAction="ifRoom|collapseActionView"
+        android:showAsAction="ifRoom|collapseActionView"
+        tools:ignore="AppCompatResource"
         android:title="@string/action_search"/>
    <!--
     <item
@@ -19,26 +21,31 @@
         android:id="@+id/action_album"
         android:icon="@mipmap/ofm_group_chat_icon"
         app:showAsAction="never"
+        tools:ignore="AppCompatResource"
         android:title="@string/plus_group_chat"/>
     <item
         android:id="@+id/action_collection"
         android:icon="@mipmap/ofm_add_icon"
-        app:showAsAction="never"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"
         android:title="@string/plus_add_friend"/>
     <item
         android:id="@+id/action_card"
         android:icon="@mipmap/ofm_qrcode_icon"
-        app:showAsAction="never"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"
         android:title="@string/plus_scan"/>
     <item
         android:id="@+id/action_settings"
         android:icon="@mipmap/ofm_collect_icon"
-        app:showAsAction="never"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"
         android:title="@string/plus_pay"/>
     <item
         android:id="@+id/action_feed"
         android:icon="@mipmap/ofm_feedback_icon"
-        app:showAsAction="never"
+        android:showAsAction="never"
+        tools:ignore="AppCompatResource"
         android:title="@string/plus_help"/>
 
 
