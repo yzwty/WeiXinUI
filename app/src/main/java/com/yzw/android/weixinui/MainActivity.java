@@ -1,5 +1,6 @@
 package com.yzw.android.weixinui;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -25,14 +26,15 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
        // requestWindowFeature(Window.FEATURE_NO_TITLE);
+        ActionBar actionBar=getActionBar();
+        /*
+        //隐藏Label标签
+        actionBar.setDisplayShowTitleEnabled(false);
+        */
+        //隐藏logo和icon
+        actionBar.setDisplayShowHomeEnabled(false);
+
         setContentView(R.layout.activity_main);
-/*
-        try{
-            window.addFlags(WindowManager.LayoutParams.class.getField("FLAG_NEEDS_MENU_KEY").getInt(null));
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-*/
         pagerTabs=(PagerSlidingTabStrip) findViewById(R.id.pager_tabs);
         pager=(ViewPager) findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
